@@ -1,5 +1,5 @@
 //en la línea 167 es donde está el botón para cerrar sesión... falta hacer esa lógica
-
+import LogoutButton from "../../components/LogoutButton";
 import { useEffect } from "react";
 
 // react-router-dom components
@@ -167,17 +167,7 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
       />
       <List>{renderRoutes}</List>
       <MDBox p={2} mt="auto">
-        <MDButton
-          component="a"
-          href=""
-          target="_blank"
-          rel="noreferrer"
-          variant="gradient"
-          color={sidenavColor}
-          fullWidth
-        >
-          EXIT
-        </MDButton>
+        <LogoutButton />
       </MDBox>
     </SidenavRoot>
   );

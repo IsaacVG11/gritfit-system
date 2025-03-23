@@ -12,7 +12,7 @@ import routes from "routes";
 import { useMaterialUIController, setMiniSidenav } from "context";
 import brandWhite from "assets/images/logo-ct.png";
 import brandDark from "assets/images/logo-ct-dark.png";
-import ProtectedRoute from "components/ProtectedRoute";
+import ProtectedRoute from "./components/ProtectedRoute";
 //import { useAuth } from "context/AuthContext";
 
 export default function App() {
